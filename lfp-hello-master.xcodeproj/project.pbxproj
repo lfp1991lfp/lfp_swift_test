@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9735F3D01D93D5BA00592961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9735F3CF1D93D5BA00592961 /* AppDelegate.swift */; };
+		9735F3D21D93D5BA00592961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9735F3D11D93D5BA00592961 /* ViewController.swift */; };
+		9735F3D51D93D5BA00592961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9735F3D31D93D5BA00592961 /* Main.storyboard */; };
+		9735F3D71D93D5BA00592961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9735F3D61D93D5BA00592961 /* Assets.xcassets */; };
+		9735F3DA1D93D5BA00592961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9735F3D81D93D5BA00592961 /* LaunchScreen.storyboard */; };
+		9735F3E51D93D5BA00592961 /* lfp_hello_masterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9735F3E41D93D5BA00592961 /* lfp_hello_masterTests.swift */; };
+		9735F3F01D93D5BA00592961 /* lfp_hello_masterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9735F3EF1D93D5BA00592961 /* lfp_hello_masterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9735F3E11D93D5BA00592961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9735F3C41D93D5BA00592961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9735F3CB1D93D5BA00592961;
+			remoteInfo = "lfp-hello-master";
+		};
+		9735F3EC1D93D5BA00592961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9735F3C41D93D5BA00592961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9735F3CB1D93D5BA00592961;
+			remoteInfo = "lfp-hello-master";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9735F3CC1D93D5BA00592961 /* lfp-hello-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lfp-hello-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9735F3CF1D93D5BA00592961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9735F3D11D93D5BA00592961 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9735F3D41D93D5BA00592961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9735F3D61D93D5BA00592961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9735F3D91D93D5BA00592961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9735F3DB1D93D5BA00592961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9735F3E01D93D5BA00592961 /* lfp-hello-masterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lfp-hello-masterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9735F3E41D93D5BA00592961 /* lfp_hello_masterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lfp_hello_masterTests.swift; sourceTree = "<group>"; };
+		9735F3E61D93D5BA00592961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9735F3EB1D93D5BA00592961 /* lfp-hello-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lfp-hello-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9735F3EF1D93D5BA00592961 /* lfp_hello_masterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lfp_hello_masterUITests.swift; sourceTree = "<group>"; };
+		9735F3F11D93D5BA00592961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9735F3C91D93D5BA00592961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9735F3DD1D93D5BA00592961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9735F3E81D93D5BA00592961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9735F3C31D93D5B900592961 = {
+			isa = PBXGroup;
+			children = (
+				9735F3CE1D93D5BA00592961 /* lfp-hello-master */,
+				9735F3E31D93D5BA00592961 /* lfp-hello-masterTests */,
+				9735F3EE1D93D5BA00592961 /* lfp-hello-masterUITests */,
+				9735F3CD1D93D5BA00592961 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9735F3CD1D93D5BA00592961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9735F3CC1D93D5BA00592961 /* lfp-hello-master.app */,
+				9735F3E01D93D5BA00592961 /* lfp-hello-masterTests.xctest */,
+				9735F3EB1D93D5BA00592961 /* lfp-hello-masterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9735F3CE1D93D5BA00592961 /* lfp-hello-master */ = {
+			isa = PBXGroup;
+			children = (
+				9735F3CF1D93D5BA00592961 /* AppDelegate.swift */,
+				9735F3D11D93D5BA00592961 /* ViewController.swift */,
+				9735F3D31D93D5BA00592961 /* Main.storyboard */,
+				9735F3D61D93D5BA00592961 /* Assets.xcassets */,
+				9735F3D81D93D5BA00592961 /* LaunchScreen.storyboard */,
+				9735F3DB1D93D5BA00592961 /* Info.plist */,
+			);
+			path = "lfp-hello-master";
+			sourceTree = "<group>";
+		};
+		9735F3E31D93D5BA00592961 /* lfp-hello-masterTests */ = {
+			isa = PBXGroup;
+			children = (
+				9735F3E41D93D5BA00592961 /* lfp_hello_masterTests.swift */,
+				9735F3E61D93D5BA00592961 /* Info.plist */,
+			);
+			path = "lfp-hello-masterTests";
+			sourceTree = "<group>";
+		};
+		9735F3EE1D93D5BA00592961 /* lfp-hello-masterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9735F3EF1D93D5BA00592961 /* lfp_hello_masterUITests.swift */,
+				9735F3F11D93D5BA00592961 /* Info.plist */,
+			);
+			path = "lfp-hello-masterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9735F3CB1D93D5BA00592961 /* lfp-hello-master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9735F3F41D93D5BA00592961 /* Build configuration list for PBXNativeTarget "lfp-hello-master" */;
+			buildPhases = (
+				9735F3C81D93D5BA00592961 /* Sources */,
+				9735F3C91D93D5BA00592961 /* Frameworks */,
+				9735F3CA1D93D5BA00592961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lfp-hello-master";
+			productName = "lfp-hello-master";
+			productReference = 9735F3CC1D93D5BA00592961 /* lfp-hello-master.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9735F3DF1D93D5BA00592961 /* lfp-hello-masterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9735F3F71D93D5BA00592961 /* Build configuration list for PBXNativeTarget "lfp-hello-masterTests" */;
+			buildPhases = (
+				9735F3DC1D93D5BA00592961 /* Sources */,
+				9735F3DD1D93D5BA00592961 /* Frameworks */,
+				9735F3DE1D93D5BA00592961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9735F3E21D93D5BA00592961 /* PBXTargetDependency */,
+			);
+			name = "lfp-hello-masterTests";
+			productName = "lfp-hello-masterTests";
+			productReference = 9735F3E01D93D5BA00592961 /* lfp-hello-masterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9735F3EA1D93D5BA00592961 /* lfp-hello-masterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9735F3FA1D93D5BA00592961 /* Build configuration list for PBXNativeTarget "lfp-hello-masterUITests" */;
+			buildPhases = (
+				9735F3E71D93D5BA00592961 /* Sources */,
+				9735F3E81D93D5BA00592961 /* Frameworks */,
+				9735F3E91D93D5BA00592961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9735F3ED1D93D5BA00592961 /* PBXTargetDependency */,
+			);
+			name = "lfp-hello-masterUITests";
+			productName = "lfp-hello-masterUITests";
+			productReference = 9735F3EB1D93D5BA00592961 /* lfp-hello-masterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9735F3C41D93D5BA00592961 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = lfp;
+				TargetAttributes = {
+					9735F3CB1D93D5BA00592961 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					9735F3DF1D93D5BA00592961 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9735F3CB1D93D5BA00592961;
+					};
+					9735F3EA1D93D5BA00592961 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9735F3CB1D93D5BA00592961;
+					};
+				};
+			};
+			buildConfigurationList = 9735F3C71D93D5BA00592961 /* Build configuration list for PBXProject "lfp-hello-master" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9735F3C31D93D5B900592961;
+			productRefGroup = 9735F3CD1D93D5BA00592961 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9735F3CB1D93D5BA00592961 /* lfp-hello-master */,
+				9735F3DF1D93D5BA00592961 /* lfp-hello-masterTests */,
+				9735F3EA1D93D5BA00592961 /* lfp-hello-masterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9735F3CA1D93D5BA00592961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9735F3DA1D93D5BA00592961 /* LaunchScreen.storyboard in Resources */,
+				9735F3D71D93D5BA00592961 /* Assets.xcassets in Resources */,
+				9735F3D51D93D5BA00592961 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9735F3DE1D93D5BA00592961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9735F3E91D93D5BA00592961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9735F3C81D93D5BA00592961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9735F3D21D93D5BA00592961 /* ViewController.swift in Sources */,
+				9735F3D01D93D5BA00592961 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9735F3DC1D93D5BA00592961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9735F3E51D93D5BA00592961 /* lfp_hello_masterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9735F3E71D93D5BA00592961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9735F3F01D93D5BA00592961 /* lfp_hello_masterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9735F3E21D93D5BA00592961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9735F3CB1D93D5BA00592961 /* lfp-hello-master */;
+			targetProxy = 9735F3E11D93D5BA00592961 /* PBXContainerItemProxy */;
+		};
+		9735F3ED1D93D5BA00592961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9735F3CB1D93D5BA00592961 /* lfp-hello-master */;
+			targetProxy = 9735F3EC1D93D5BA00592961 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9735F3D31D93D5BA00592961 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9735F3D41D93D5BA00592961 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9735F3D81D93D5BA00592961 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9735F3D91D93D5BA00592961 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9735F3F21D93D5BA00592961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9735F3F31D93D5BA00592961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9735F3F51D93D5BA00592961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "lfp-hello-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lfp.lfp-hello-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9735F3F61D93D5BA00592961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "lfp-hello-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lfp.lfp-hello-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9735F3F81D93D5BA00592961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "lfp-hello-masterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lfp.lfp-hello-masterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lfp-hello-master.app/lfp-hello-master";
+			};
+			name = Debug;
+		};
+		9735F3F91D93D5BA00592961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "lfp-hello-masterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lfp.lfp-hello-masterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lfp-hello-master.app/lfp-hello-master";
+			};
+			name = Release;
+		};
+		9735F3FB1D93D5BA00592961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "lfp-hello-masterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lfp.lfp-hello-masterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "lfp-hello-master";
+			};
+			name = Debug;
+		};
+		9735F3FC1D93D5BA00592961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "lfp-hello-masterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lfp.lfp-hello-masterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "lfp-hello-master";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9735F3C71D93D5BA00592961 /* Build configuration list for PBXProject "lfp-hello-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9735F3F21D93D5BA00592961 /* Debug */,
+				9735F3F31D93D5BA00592961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9735F3F41D93D5BA00592961 /* Build configuration list for PBXNativeTarget "lfp-hello-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9735F3F51D93D5BA00592961 /* Debug */,
+				9735F3F61D93D5BA00592961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9735F3F71D93D5BA00592961 /* Build configuration list for PBXNativeTarget "lfp-hello-masterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9735F3F81D93D5BA00592961 /* Debug */,
+				9735F3F91D93D5BA00592961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9735F3FA1D93D5BA00592961 /* Build configuration list for PBXNativeTarget "lfp-hello-masterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9735F3FB1D93D5BA00592961 /* Debug */,
+				9735F3FC1D93D5BA00592961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9735F3C41D93D5BA00592961 /* Project object */;
+}
