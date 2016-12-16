@@ -14,6 +14,7 @@
 		9735F3DA1D93D5BA00592961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9735F3D81D93D5BA00592961 /* LaunchScreen.storyboard */; };
 		9735F3E51D93D5BA00592961 /* lfp_hello_masterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9735F3E41D93D5BA00592961 /* lfp_hello_masterTests.swift */; };
 		9735F3F01D93D5BA00592961 /* lfp_hello_masterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9735F3EF1D93D5BA00592961 /* lfp_hello_masterUITests.swift */; };
+		97F425301E03EA4000ACBF12 /* LfpClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F4252F1E03EA4000ACBF12 /* LfpClassTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9735F3EB1D93D5BA00592961 /* lfp-hello-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lfp-hello-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9735F3EF1D93D5BA00592961 /* lfp_hello_masterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lfp_hello_masterUITests.swift; sourceTree = "<group>"; };
 		9735F3F11D93D5BA00592961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F4252F1E03EA4000ACBF12 /* LfpClassTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LfpClassTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		9735F3E31D93D5BA00592961 /* lfp-hello-masterTests */ = {
 			isa = PBXGroup;
 			children = (
+				97F4252F1E03EA4000ACBF12 /* LfpClassTests.swift */,
 				9735F3E41D93D5BA00592961 /* lfp_hello_masterTests.swift */,
 				9735F3E61D93D5BA00592961 /* Info.plist */,
 			);
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9735F3E51D93D5BA00592961 /* lfp_hello_masterTests.swift in Sources */,
+				97F425301E03EA4000ACBF12 /* LfpClassTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				9735F3F61D93D5BA00592961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9735F3F71D93D5BA00592961 /* Build configuration list for PBXNativeTarget "lfp-hello-masterTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				9735F3F91D93D5BA00592961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9735F3FA1D93D5BA00592961 /* Build configuration list for PBXNativeTarget "lfp-hello-masterUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				9735F3FC1D93D5BA00592961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
